@@ -1,0 +1,1 @@
+isPalindromic :: [a] -> Bool

@@ -1,0 +1,6 @@
+-- palindromic :: [a] -> [a]
+palindromic [] = []
+palindromic (x:[]) = x:[] ++ [x]
+palindromic (x:xs) = x: palindromic xs ++ [x]
+-- palindromic 1:[] = 1:[] ++ [1] = [1, 1]
+-- palindromic 2:1:[] = 2: palindromic 1:[] ++ [2]
